@@ -2,11 +2,11 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <div>I'm the very home comp</div>
-      <button onClick={() => console.log("hi there!")}>press me!</button>
+    <div className="center-align" style={{ marginTop: 200 }}>
+      <h3>Welcome</h3>
+      <p>Check out dis stuff</p>
     </div>
   );
 };
 
-export default {component: Home};
+export default { component: Home };
